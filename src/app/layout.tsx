@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { AudioPlayerShell } from "@/components/AudioPlayerShell";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,6 +34,7 @@ export default function RootLayout({
     >
       <body className="min-h-full bg-background font-sans text-foreground">
         <AudioPlayerShell>{children}</AudioPlayerShell>
+        <Analytics />
       </body>
     </html>
   );
