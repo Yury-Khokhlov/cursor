@@ -204,22 +204,22 @@ export function AccordionArgument() {
           </p>
           <ul className="list-disc space-y-2 pl-5 marker:text-muted">
             <li>
-              I use Cursor daily in both technical and non-technical workflows.
+              I use Cursor daily in both technical and non-technical workflows
             </li>
             <li>
-              I have helped scale agentic AI products inside large organizations.
+              I have helped scale agentic AI products inside large organizations
             </li>
             <li>
               I understand how non-engineering teams actually work, buy, adopt, and
-              change behavior.
+              change behavior
             </li>
             <li>
               I can translate messy user needs into product, growth, and enterprise
-              opportunities.
+              opportunities
             </li>
             <li>
               I can operate across product, strategy, GTM, partnerships, user research,
-              and special projects.
+              and special projects
             </li>
           </ul>
           <p>
